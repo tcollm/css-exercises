@@ -59,9 +59,8 @@ ul{
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 
-  padding: 8px;
-  height: 300px;
-  flex-basis: 300px;
+  padding: 16px;
+  width: 300px;
 }
 
 .card-container{
