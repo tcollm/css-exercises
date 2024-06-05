@@ -16,6 +16,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  padding: 8px;
+  margin: 16px;
 }
 
 input {
