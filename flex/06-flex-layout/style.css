@@ -44,27 +44,32 @@ ul{
   flex-direction: column;
 }
 
+.header, .footer{
+  padding: 16px;
+}
+
 .header{
   display: flex;
   /* justify-content: space-around; */
   margin: 0;
-  padding: 8px;
+}
+
+.right-links, .left-links{
+  display: flex;
+  gap: 8px;
 }
 
 .right-links{
-  display: flex;
   margin-left: auto;
 }
 
 .left-links{
-  display: flex;
   margin-right: auto;
 }
 
 .footer{
   display: flex;
   background-color: #eeeeee;
-  padding: 8px;
 }
 
 .content{
