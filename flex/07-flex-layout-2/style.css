@@ -5,6 +5,8 @@ body {
 
   display: flex;
   flex-direction: column;
+
+  flex: 1;
 }
 
 a{
@@ -50,6 +52,7 @@ ul{
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+
   display: flex;
   flex-shrink: 0;
 }
@@ -72,4 +75,5 @@ ul{
 
 .content{
   display: flex;
+  flex: 1;
 }
