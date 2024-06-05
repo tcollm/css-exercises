@@ -25,6 +25,25 @@ input {
   width: 400px;
 }
 
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
 .header{
   display: flex;
   /* justify-content: space-around; */
@@ -46,7 +65,3 @@ input {
   display: flex;
 }
 
-body{
-  display: flex;
-  flex-direction: column;
-}
