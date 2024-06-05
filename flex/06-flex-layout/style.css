@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -41,11 +44,6 @@ ul{
   margin: 0;
   padding: 0;
   gap: 16px;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
 }
 
 .header, .footer{
