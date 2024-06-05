@@ -48,7 +48,7 @@ ul{
   display: flex;
   /* justify-content: space-around; */
   margin: 0;
-  padding: 0;
+  padding: 8px;
 }
 
 .right-links{
@@ -63,5 +63,10 @@ ul{
 
 .footer{
   display: flex;
+  background-color: #eeeeee;
+  padding: 8px;
 }
 
+.content{
+  text-align: center;
+}
