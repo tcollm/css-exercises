@@ -45,3 +45,8 @@ input {
 .footer{
   display: flex;
 }
+
+body{
+  display: flex;
+  flex-direction: column;
+}
